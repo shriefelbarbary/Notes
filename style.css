@@ -1,0 +1,103 @@
+/* General Page Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+/* Centered Container */
+.center-container {
+    max-width: 600px;
+    margin: 50px auto;
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Form Styling */
+.new-note {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+.new-note input,
+.new-note textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.new-note button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background 0.3s;
+}
+
+.new-note button:hover {
+    background-color: #0056b3;
+}
+
+/* Notes Section */
+.notes {
+    margin-top: 20px;
+    text-align: left;
+}
+
+.note {
+    background: #fff;
+    padding: 15px;
+    margin: 10px 0;
+    border-left: 4px solid #007bff;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    position: relative;
+}
+
+.title a {
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 18px;
+    color: #007bff;
+}
+
+.description {
+    font-size: 14px;
+    color: #333;
+    margin-top: 5px;
+}
+
+small {
+    font-size: 12px;
+    color: #777;
+}
+
+/* Close Button */
+.close {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background: red;
+    color: white;
+    border: none;
+    padding: 5px;
+    cursor: pointer;
+    border-radius: 50%;
+    font-size: 14px;
+}
+
+.close:hover {
+    background: darkred;
+}
